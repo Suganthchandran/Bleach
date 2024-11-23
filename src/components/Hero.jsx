@@ -82,7 +82,10 @@ const Hero = () => {
     const getImageSrc = (index) => `img/Bleach-${index}.jpg`
 
   return (
-    <div className='relative h-dvh w-screen overflow-x-hidden'>
+    <div className='relative h-dvh w-screen overflow-x-hidden' style={{
+        scrollbarWidth: "none",
+        msOverflowStyle: "none",
+      }}>
         {
             isLoading && (
                 <div className='flex-center absolute z-[100] h-dvh w-screen overflow-hidden bg-violet-50'>
@@ -141,7 +144,7 @@ const Hero = () => {
             </div>
         </div>
          
-        <h1 style={{right:'50px'}} className='special-font hero-heading absolute bottom-2 right-5 text-black'>A<b>n</b>ime</h1>
+        <h1 style={{right:'66px'}} className='special-font hero-heading absolute bottom-2 right-5 text-black'>A<b>n</b>ime</h1>
 
     </div>
   )

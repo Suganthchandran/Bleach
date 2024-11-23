@@ -3,6 +3,9 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import Characters from './components/Characters'
+import Arc from './components/Arc'
+import Author from './components/Author'
+
 
 const App = () => {
   return (
@@ -11,6 +14,8 @@ const App = () => {
       <Hero/>
       <About/>
       <Characters/>
+      <Arc/>
+      <Author/>
     </main>
   )
 }
