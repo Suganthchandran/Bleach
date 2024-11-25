@@ -5,6 +5,8 @@ import Navbar from './components/Navbar'
 import Characters from './components/Characters'
 import Arc from './components/Arc'
 import Author from './components/Author'
+import Contact from './components/Contact'
+import Footer from './components/Footer'
 
 
 const App = () => {
@@ -16,6 +18,8 @@ const App = () => {
       <Characters/>
       <Arc/>
       <Author/>
+      <Contact/>
+      <Footer/>
     </main>
   )
 }
