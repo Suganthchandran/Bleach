@@ -55,7 +55,7 @@ const Author = () => {
   }, []);
 
   return (
-    <div id="author" className="min-h-screen bg-black text-white w-screen">
+    <div id="author" className="min-h-[100vh] bg-black text-white w-screen">
       <div className="relative mb-8 pt-32 flex flex-col items-center gap-5">
         <h2 className="font-general text-sm uppercase md:text-[10px]">
           Learn more about the genius behind Bleach!

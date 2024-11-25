@@ -64,7 +64,7 @@ const Characters = () => {
     const observer = new IntersectionObserver(
       ([entry]) => {
         if (!entry.isIntersecting) {
-          setIsSeeMore(false); // Reset isSeeMore when the component is not in view
+          setIsSeeMore(false);
         }
       },
       { threshold: 0.1 }
@@ -82,7 +82,7 @@ const Characters = () => {
   }, []);
 
   return (
-    <section ref={containerRef} className='bg-black pb-96'>
+    <section ref={containerRef} className={`bg-black ${isSeeMore ? 'pb-36' : 'pb-60'}`}>
       <div className='container relative mx-auto pb-0 px-3 md:px-10'>
           <div className='px-5 py-32'>
               <p className='font-circular-web text-lg text-blue-50'>Discover Characters, Unveil Legends!</p>
@@ -123,7 +123,7 @@ const Characters = () => {
        <div className='relative'>
        {
           isSeeMore ? '' : (
-            <div className='absolute top-[50px] left-[660px] z-40' onClick={()=> setIsSeeMore(true)}>
+            <div className='absolute top-[85px] left-[660px] z-40' onClick={()=> setIsSeeMore(true)}>
                   <Button id="product-button" title="SEE MORE" rightIcon={<TiLocationArrow/>} containerClass="bg-blue-50 md:flex hidden items-center justify-center gap-1" />
             </div>
           )
