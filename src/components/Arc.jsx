@@ -377,7 +377,7 @@ const ArcCard = ({ arc, index, onClick }) => (
     const closeSidebar = () => setSidebarVisible(false);
   
     return (
-      <section className="bg-white pb-28 mt-[-44px] min-h-screen">
+      <section id="arcs" className="bg-white pb-28 mt-[-44px] min-h-screen">
         <AnimatedTitle
           title="A<b>rc</b> Of Ble<b>a</b>ch"
           containerClass="mt-5 pt-32 !text-black text-center"

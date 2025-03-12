@@ -82,7 +82,7 @@ const Hero = () => {
     const getImageSrc = (index) => `img/Bleach-${index}.jpg`
 
   return (
-    <div className='relative h-dvh w-screen overflow-x-hidden' style={{
+    <div id="home" className='relative h-dvh w-screen overflow-x-hidden' style={{
         scrollbarWidth: "none",
         msOverflowStyle: "none",
       }}>
