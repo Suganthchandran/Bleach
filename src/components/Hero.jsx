@@ -139,7 +139,7 @@ const Hero = () => {
                 <div className='mt-24 px-5 sm:px-10'>
                     <h1 className='special-font hero-heading text-blue-100'>Ble<b>a</b>ch</h1>
                     <p className='mb-5 max-w-64 font-robert-regular text-blue-100'>Enter the Bleach World <br/> Unleash Bankai</p>
-                    <Button id="watch-trailer" title="Watch Anime" leftIcon={<TiLocationArrow />} containerClass="bg-yellow-300 flex-center gap-1" />
+                    <a href="https://www.crunchyroll.com/series/G63VGG2NY/bleach" target='_blank'  rel="noopener noreferrer"><Button id="watch-trailer" title="Watch Anime" leftIcon={<TiLocationArrow />} containerClass="bg-yellow-300 flex-center gap-1" /></a>
                 </div>
             </div>
         </div>

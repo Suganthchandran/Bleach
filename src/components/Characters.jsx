@@ -132,46 +132,35 @@ const Characters = () => {
             )
           }
           {
-            isSeeMore && <div className='grid mt-[27px] h-[80vh] grid-cols-2 grid-rows-2 gap-7'>
-              <BentoTilt className='bento-tilt_1 row-span-1 ms-14 md:col-span-1 md:ms-0'>
-                <BentoCard
-                  src="videos/Character-1.mp4"
-                  title={<>K<b>e</b>np<b>ac</b>hi Z<b>a</b>r<b>a</b>ki</>}
-                  desc="Kenpachi Zaraki, the battle-hungry captain of Squad 11, lives for the thrill of combat. With monstrous strength and no fear of death, he fights without a Bankai, relying solely on raw power and skill to dominate his opponents."
-                />
+            isSeeMore && 
 
-              </BentoTilt>
-
-              <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
-                <BentoCard
-                  src="videos/Character-7.mp4"
-                  title={<>N<b>el</b>li<b>e</b>l Tu O<b>d</b>elsch<b>wa</b>nck</>}
-                  desc="Nel, the former Espada No. 3, hides her true strength behind a childlike form. Fiercely loyal and protective, she unleashes immense power when her friends are in danger."
-                />
-
-
-              </BentoTilt>
-
-
-              <BentoTilt className='bento-tilt_1 row-span-1 ms-14 md:col-span-1 md:ms-0'>
-                <BentoCard
-                  src="videos/Character-8.mp4"
-                  title={<>Ki<b>s</b>uke Ur<b>a</b>har<b>a</b></>}
-                  desc="Kisuke Urahara, the enigmatic former Squad 12 captain, is a genius inventor and strategist. His laid-back demeanor masks a brilliant mind and a mastery of powerful techniques."
-                />
-
-
-              </BentoTilt>
-
-              <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
-                <BentoCard
+        <div className='grid h-[80vh] grid-cols-2 grid-rows-2 gap-7 mt-7'>
+          
+          <BentoTilt className='bento-tilt_1 row-span-1 ms-14 md:col-span-1 md:ms-0'>
+          <BentoCard
                   src="videos/Character-9.mp4"
                   title={<>S<b>hu</b>n<b>s</b>ui Ky<b>o</b>r<b>a</b>ku</>}
                   desc="Shunsui Kyōraku, the easygoing yet deadly Captain-Commander, wields dual zanpakutō with deceptive lethality. Beneath his carefree nature lies a cunning strategist and a fearsome warrior."
                 />
-              </BentoTilt>
-            </div>
-          }
+          </BentoTilt>
+
+          <BentoTilt className='bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2'>
+          <BentoCard
+                  src="videos/Character-7.mp4"
+                  title={<>Ki<b>s</b>uke Ur<b>a</b>har<b>a</b></>}
+                  desc="Kisuke Urahara, the enigmatic former Squad 12 captain, is a genius inventor and strategist. His laid-back demeanor masks a brilliant mind and a mastery of powerful techniques."
+                />
+          </BentoTilt>
+          
+          <BentoTilt className='bento-tilt_1 me-14 md:col-span-1 md:me-0'>
+          <BentoCard
+                  src="videos/Character-6.mp4"
+                  title={<>N<b>el</b>li<b>e</b>l Tu O<b>d</b>elsch<b>wa</b>nck</>}
+                  desc="Nel, the former Espada No. 3, hides her true strength behind a childlike form. Fiercely loyal and protective, she unleashes immense power when her friends are in danger."
+                />
+          </BentoTilt>
+        </div>
+  }      
         </div>
       </div>
     </section>
